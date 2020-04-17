@@ -6,7 +6,8 @@ namespace E7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Celular A30S=new Celular(false,true,64000,104);
+            Camara Camara_A30S=new Camara(25,794);
         }
     }
 }
