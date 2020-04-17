@@ -11,7 +11,7 @@ namespace E5
         {
             return lado1==lado2 || lado2==lado3 || lado3==lado1;
         }
-        public static Boolean EsEquilatero(int lado1,int lado2,int lado3)
+        public static bool EsEquilatero(int lado1,int lado2,int lado3)
         {
             return lado1==lado2 && lado1==lado3;
         }
