@@ -19,7 +19,7 @@ namespace E5
                 decision=Int32.Parse(Console.ReadLine());
                 if (decision==1)
                 {
-                    Console.WriteLine("ingrese los 3 lados");
+                    Console.WriteLine("ingrese los tres lados");
                     lado1=Int32.Parse(Console.ReadLine());
                     lado2=Int32.Parse(Console.ReadLine());  
                     lado3=Int32.Parse(Console.ReadLine()); 

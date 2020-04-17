@@ -24,14 +24,14 @@ namespace E5
         }
         public bool esTriangulorectangulo(int lado1,int lado2,int lado3)
         {
-            int hipotenusa=0,cont=0,catetos=0;
+            int hipotenusa=0,count=0,catetos=0;
             if (lado1>lado2 && lado1>lado3)
             {
                 hipotenusa=lado1*lado1;
                 catetos=(lado2*lado2)+(lado3*lado3);
                 if (hipotenusa==catetos)
                 {
-                    cont=1;
+                    count=1;
                 }
             }
             else
@@ -42,7 +42,7 @@ namespace E5
                     catetos=(lado1*lado1)+(lado3*lado3);
                     if (hipotenusa==catetos)
                     {
-                        cont=1;
+                        count=1;
                     }
                 }
                 else
@@ -53,12 +53,12 @@ namespace E5
                         catetos=(lado1*lado1)+(lado2*lado2);
                         if (hipotenusa==catetos)
                         {
-                            cont=1;
+                            count=1;
                         }
                     }
                 }
             }
-            return cont==1;
+            return count==1;
         }
     }
 }
