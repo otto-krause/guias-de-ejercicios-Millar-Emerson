@@ -37,7 +37,6 @@ namespace E6
                             Console.WriteLine("ingrese dos numeros enteros");
                             num=Int32.Parse(Console.ReadLine());
                             num1=Int32.Parse(Console.ReadLine());
-                            Console.Write("el mayor es=");
                             Matematica.Mayor(num,num1);
                         }
                         else
@@ -47,7 +46,6 @@ namespace E6
                                 Console.WriteLine("ingrese dos numeros enteros");
                                 num=Int32.Parse(Console.ReadLine());
                                 num1=Int32.Parse(Console.ReadLine());
-                                Console.Write("el menor es=");
                                 Matematica.Menor(num,num1);
                             }
                             else
@@ -62,6 +60,7 @@ namespace E6
                         }
                     }
                 }
+                Console.WriteLine("ingrese otro numero");
             }
         }
     }
