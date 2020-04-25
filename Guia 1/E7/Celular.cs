@@ -14,7 +14,7 @@ namespace E7
         }
         public void MemoriaDisponible(int memoria,int apps,int megapixeles,int fotos)
         {
-            int total,peso,count;
+            int total,peso;
             peso=(megapixeles)*3;
             total=(peso*fotos)+(70*apps);
             total=memoria-total;
