@@ -18,7 +18,7 @@ namespace E7
             int peso,total;
             peso=(1000000*megapixel)*3;
             total=peso*fotos;
-            Console.WriteLine("Peso total de todas las fotos="+total);
+            Console.WriteLine("Peso total de todas las fotos=="+total);
         } 
     }
 }

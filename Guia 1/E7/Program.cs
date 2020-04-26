@@ -20,7 +20,7 @@ namespace E7
                     Camara_A30.pesoPorFoto();
                     break;
                     case 2:
-                        Console.WriteLine("Tenes NFC?"+A30S.TeCargaLaSUBE());
+                        Console.WriteLine("Tenes NFC??"+A30S.TeCargaLaSUBE());
                         break;
                         case 3:
                             Camara_A30.PesoTotalDeFotos();
