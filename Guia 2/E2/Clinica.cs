@@ -17,14 +17,14 @@ namespace E2
             {
                 if (aux.especialidad==especialidad)
                 {
-                    if(aux.turnos<50)
+                    if(aux.turnoss<50)
                     {
                         Console.WriteLine("El medico"+aux.nombre+"esta disponible");
                         return especialidad;
                     }
                     else
                     {
-                        return ("Intente de nuevo mas tarde");
+                        return ("Intente de nuevo mas tardee");
                     }
                 }
             }
