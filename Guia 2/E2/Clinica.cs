@@ -4,28 +4,31 @@ namespace E2
 {
     public class Clinica
     {
+        List<Medico> medicos=new List <Medico>();
         public Clinica()
         {
-            List<Medico> medicos=new List <Medico>();
             medicos.Add(new Medico("Cabrera","Gabriel","Ginecologia",30)); 
             medicos.Add(new Medico("Millar","Emerson","Cardiologia",40));
             medicos.Add(new Medico("Sozaki","Brahian","Traumatologia",50));
         }
-        public string Turnos (string especialidad)
+        public void Turnos (string especialidad)
         {
             foreach (var aux in medicos)
             {
                 if (aux.especialidad==especialidad)
                 {
-                    if(aux.turnoss<50)
+                    if(aux.turnos<50)
                     {
-                        Console.WriteLine("El medico"+aux.nombre+"esta disponible");
-                        return especialidad;
+                        Console.WriteLine("El medico "+ aux.nombre +" esta disponible");
                     }
                     else
                     {
-                        return ("Intente de nuevo mas tardee");
+                        Console.WriteLine("intentelo mas tarde");
                     }
+                }
+                else
+                {
+                    Console.WriteLine("intentelo mas tarde");
                 }
             }
         }
