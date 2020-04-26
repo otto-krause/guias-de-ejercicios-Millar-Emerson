@@ -4,7 +4,7 @@ namespace E7
     public class Celular
     {
         public bool NFC,Bluethoot;
-        public int memoria,app;
+        public int memoria,app,count;
         public Celular (bool NFC,bool Bluethoot,int memoria,int app)
         {
             this.app=app;
