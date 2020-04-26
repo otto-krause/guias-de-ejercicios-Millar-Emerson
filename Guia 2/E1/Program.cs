@@ -23,7 +23,7 @@ namespace E1
             }
             Console.WriteLine("cantidad de numero ingresados="+numeros.Count);
             Console.WriteLine("primer elemento="+numeros[0]);
-            Console.WriteLine("ultimo elemento="+numeros[]);            
+            Console.WriteLine("ultimo elemento="+numeros[cont]);            
         }
     }
 }
