@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 
 namespace E2
 {
@@ -6,7 +7,12 @@ namespace E2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string especialidad;
+            Console.WriteLine("ingrese la especialidad del medico");
+            Clinica clinica=new Clinica();
+            Console.WriteLine("ingrese el especialista con el quiere ser tratado");
+            especialidad=Console.ReadLine();
+            clinica.Turnos(especialidad);
         }
     }
 }
