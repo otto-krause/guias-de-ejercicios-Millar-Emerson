@@ -7,7 +7,7 @@ namespace E1
     {
         static void Main(string[] args)
         {
-            int numero=1,cont=0;
+            int numero=1,count=0;
             List<int> numeros=new List<int>();
             while(numero>0)
             {
@@ -19,11 +19,12 @@ namespace E1
             foreach(int num in numeros)
             {
                 Console.WriteLine("elemento="+num);
-                cont++;
+                count++;
             }
             Console.WriteLine("cantidad de numero ingresados="+numeros.Count);
             Console.WriteLine("primer elemento="+numeros[0]);
-            Console.WriteLine("ultimo elemento="+numeros[cont]);            
+            numeros.Reverse();
+            Console.WriteLine("ultimo elemento="+numeros[0]);            
         }
     }
 }
